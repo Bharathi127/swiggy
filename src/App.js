@@ -65,7 +65,7 @@ const App = () => {
                   {/* : ""}  */}
                 {/* {state ? */}
                 <Routes>
-
+                    {/* <Route path='/' element={<Home value={value} setValue={setValue} setlistOfRestaurants={setlistOfRestaurants} />}></Route> */}
                     <Route path='/home' element={<Body value={value} setValue={setValue} setlistOfRestaurants={setlistOfRestaurants} listOfRestaurants={listOfRestaurants} />}></Route>
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/contact' element={<Contact />}></Route>

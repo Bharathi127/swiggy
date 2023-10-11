@@ -11,10 +11,12 @@ const Cart = () => {
     dispatch(EmptyCart())
   }
   const removeItemFromCart=(id)=>{
+    
     dispatch(removeItem(id));
-       setTimeout(()=>{
-         alert("Do you want to remove item")
-       },1000)
+    setTimeout(()=>{
+      alert("Your item has removed sucessfully")  
+    },1000)
+    
    
   }
   return (
